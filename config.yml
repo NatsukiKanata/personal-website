@@ -1,37 +1,45 @@
-baseURL: "https://zann.my.id/"
+baseURL: "https://fzzzn.my.id/"
 languageCode: en-us
-title: zann
+title: fzzzn.
 paginate: 5
 theme: "PaperMod"
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+enableEmoji: true
+pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
-  minifyOutput: true
+  #minifyOutput: true
+
+outputs:
+    home:
+     - HTML
+     - RSS
+     - JSON
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: zann
-  description: "Fauzan's Personal Website"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Fauzan
+  title: fzzzn.
+  description: "fauzan's personal website."
+  keywords: [Blog, PaperMod]
+  author: fauzan
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -53,19 +61,19 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "zann"
+    text: "fzzzn."
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
-    title: zann
-    subtitle: "Fauzan's Personal Website"
+    enabled: true
+    title: fzzzn.
+    subtitle: "fauzan's personal website."
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: Logo
+    imageTitle: image
     buttons:
       - name: Posts
         url: posts
@@ -77,6 +85,8 @@ params:
       url: "https://twitter.com/eenthlh"
     - name: "instagram"
       url: "https://instagram.com/eenthlh"
+    - name: "github"
+      url: "https://github.com/fzzzn"
 
   # analytics:
     # google:
@@ -101,6 +111,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: posts
@@ -111,10 +122,20 @@ menu:
       name: categories
       url: /categories/
       weight: 20
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: archives
+      name: archives
+      url: /archives/
       weight: 30
+  footer:
+    - identifier: CC BY-NC-SA 4.0
+      name: CC BY-NC-SA 4.0
+      url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+      weight: 10
+    - identifier: status
+      name: status
+      url: https://status.zxn.my.id/
+      weight: 20
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

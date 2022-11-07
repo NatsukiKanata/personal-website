@@ -1,0 +1,44 @@
+.nav a:hover {
+    color: white;
+}
+
+#menu .active {
+    font-weight: 700;
+    border-bottom: none;
+}
+
+.footer a {
+    border-bottom: none;
+}
+
+.footer a:hover {
+   color: white;
+   border-bottom: none;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: safe center;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-bottom: 25px;
+}
+
+.footer-menu a {
+    font-size: 16px;
+    display: block;
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+
+.footer-menu a:hover {
+    color: white;
+    border-bottom: none;
+}
+
+#footer-menu {
+    list-style: none;
+    overflow-x: auto;
+}
