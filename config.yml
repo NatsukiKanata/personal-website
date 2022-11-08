@@ -54,11 +54,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-i6x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png "
+    safari_pinned_tab: "/safari-pinned-tab.png"
 
   label:
     text: "fzzzn."
@@ -70,7 +70,7 @@ params:
     enabled: true
     title: fzzzn.
     subtitle: "fauzan's personal website."
-    imageUrl: "<img location>"
+    imageUrl: "/me.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: image
