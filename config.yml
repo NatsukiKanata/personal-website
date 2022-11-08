@@ -30,8 +30,8 @@ params:
   keywords: [Blog, PaperMod]
   author: fauzan
   # author: ["Me", "You"] # multiple authors
-  images: ["og-image.png"]
-  twitter_cards: true
+  images:
+    - og-image.png
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
