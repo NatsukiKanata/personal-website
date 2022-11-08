@@ -74,11 +74,11 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+      # - name: Posts
+        # url: posts
+      # - name: Tags
+        # url: tags
 
   socialIcons:
     - name: "twitter"
