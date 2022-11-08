@@ -30,7 +30,7 @@ params:
   keywords: [Blog, PaperMod]
   author: fauzan
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["og-image.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
