@@ -11,7 +11,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+googleAnalytics: G-RH5XYPD4CB
 
 minify:
   disableXML: true
@@ -92,7 +92,7 @@ params:
     # google:
       # SiteVerificationTag: "XYZabc"
     # bing:
-      # SiteVerificationTag: "XYZabc"
+      # SiteVerificationTag:  "XYZabc"
     # yandex:
       # SiteVerificationTag: "XYZabc"
 
