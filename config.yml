@@ -31,6 +31,7 @@ params:
   author: fauzan
   # author: ["Me", "You"] # multiple authors
   images: ["og-image.png"]
+  twitter_cards: true
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
