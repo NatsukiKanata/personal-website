@@ -1,5 +1,5 @@
 .nav a:hover {
-    color: white;
+    color: var(--secondary);
 }
 
 #menu .active {
@@ -7,39 +7,45 @@
     border-bottom: none;
 }
 
+.post-content a:hover {
+    color: var(--secondary);
+}
+
+
+.footer {
+    font-size: 14px;
+    padding: calc((var(--footer-height) - var(--gap))*2)var(--gap);
+}
+
 .footer a {
     border-bottom: none;
 }
 
 .footer a:hover {
-   color: white;
-   border-bottom: none;
-}
-
-.footer-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: safe center;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    margin-top: 40px;
-    margin-bottom: 25px;
-}
-
-.footer-menu a {
-    font-size: 16px;
-    display: block;
-    border-bottom: none;
-    margin-bottom: 5px;
-}
-
-.footer-menu a:hover {
-    color: white;
+    color: var(--primary);
     border-bottom: none;
 }
 
 #footer-menu {
+    display: inline-flex;
+}
+
+.footer-menu {
+    margin:  30px 0 25px 0;
+}
+
+.footer-menu li {
     list-style: none;
-    overflow-x: auto;
+    margin: 0 10px 5px 10px;
+    border-bottom: none;
+}
+
+.footer-menu a:hover {
+    border-bottom: none;
+}
+
+@media (max-width: 800px) {
+  #footer-menu {
+    flex-direction: column;
+  }
 }

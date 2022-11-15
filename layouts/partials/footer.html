@@ -1,5 +1,10 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
+    {{- if site.Copyright }}
+    <span>{{ site.Copyright | markdownify }}</span>
+    {{- else }}
+    <span><a href="{{ "" | absLangURL }}">{{ site.Title }} &copy; {{ now.Year }}</a></span>
+    {{- end }}
     <nav class="footer-menu">
         {{- $currentPage := . }}
         <ul id="footer-menu">
@@ -28,11 +33,6 @@
             {{- end }}
         </ul>
     </nav>
-    {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
-    {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

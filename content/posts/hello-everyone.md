@@ -1,10 +1,11 @@
 ---
-author: "fauzan"
+author: "Fauzan"
 title: "Hello Everyone!"
 date: "2022-10-06"
 description: "Hello everyone!"
 tags: ["life"]
 categories: ["life"]
+
 ---
 ## Hello Everyone!
 

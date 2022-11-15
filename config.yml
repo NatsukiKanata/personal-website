@@ -33,8 +33,8 @@ params:
   images:
     - og-image.png
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
-  disableThemeToggle: true
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -75,27 +75,18 @@ params:
     imageWidth: 150
     imageHeight: 150
     imageTitle: image
-    # buttons:
-      # - name: Posts
-        # url: posts
-      # - name: Tags
-        # url: tags
 
-  socialIcons:
+  # homeInfoParams:
+  #    Title: fzzzn.
+  #    Content: fauzan's personal website
+
+  socialIcons: 
     - name: "twitter"
       url: "https://twitter.com/eenthlh"
     - name: "instagram"
       url: "https://instagram.com/eenthlh"
     - name: "github"
       url: "https://github.com/fzzzn"
-
-  # analytics:
-    # google:
-      # SiteVerificationTag: "XYZabc"
-    # bing:
-      # SiteVerificationTag:  "XYZabc"
-    # yandex:
-      # SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -115,18 +106,22 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
     - identifier: posts
       name: posts
       url: /posts/
-      weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
       weight: 20
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 30
     - identifier: archives
       name: archives
       url: /archives/
-      weight: 30
+      weight: 40
   footer:
     - identifier: CC BY-NC-SA 4.0
       name: CC BY-NC-SA 4.0
