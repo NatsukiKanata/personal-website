@@ -2,7 +2,7 @@
 author: "Fauzan"
 title: "Hello Everyone!"
 date: "2022-10-06"
-description: "Hello everyone!"
+description: "Hello Everyone!"
 tags: ["life"]
 categories: ["life"]
 
