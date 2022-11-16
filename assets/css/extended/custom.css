@@ -18,6 +18,7 @@
     align-items: center;
     font-size: 13px;
     padding: calc((var(--footer-height) - var(--gap))*1.5)var(--gap);
+    max-width: none;
 }
 
 .footer a {
