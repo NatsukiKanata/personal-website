@@ -13,5 +13,5 @@ categories: ["docs"]
 <br/>
 ![images](/jawaban-3.png#center)
 <br/>
-![images](/jawaban-4.pngcenter)
+![images](/jawaban-4.png#center)
 <br/>
