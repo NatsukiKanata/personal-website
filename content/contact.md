@@ -11,5 +11,5 @@ ShowBreadCrumbs: false
 ![images](/contact.jpg#center)
 
 - Email: [fauzan@zxn.my.id](mailto:fauzan@zxn.my.id)
-- Twitter: [@eenthlh](https://twitter/eenthlh)
+- Twitter: [@eenthlh](https://twitter.com/eenthlh)
 - Instagram: [@eenthlh](https://instagram.com/eenthlh)
