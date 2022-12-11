@@ -7,6 +7,10 @@ tags: ["life"]
 categories: ["life"]
 ---
 
+Ini adalah post pertama yang kubuat biar web ini sedikit ada isinya, walaupun ga penting.
+
+<!--more-->
+
 ## Halo Semuanya!
 
 Ini adalah post pertama yang kubuat biar web ini sedikit ada isinya, walaupun ga penting.
