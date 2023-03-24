@@ -3,8 +3,12 @@ author: "Fauzan"
 title: "Membuat Saklar Pintar Menggunakan ESP8266"
 date: "2023-03-24"
 description: "Post II // MMXXIII"
-tags: ["IoT"]
-categories: ["experiment"]
+cover: 
+    image: "/esp8266-smart-switch.jpeg"
+    alt: "ESP8266 Smart Switch"
+    caption: "ESP8266 Smart Switch"
+tags: ["experiment", "IoT"]
+categories: ["life", "experiment"]
 ---
 
 Tulisan ini dibuat untuk menyelesaikan ujian praktek mata pelajaran IPS dan IPA.
@@ -15,12 +19,14 @@ Saya membuat sebuah saklar pintar berbasis [*Internet of Things (IoT)*](https://
 
 Tujuan dari pembuatan saklar pintar ini adalah untuk memudahkan pengguna dalam menghidupkan atau mematikan perangkat elektronik dari jarak jauh tanpa harus melakukan kontak fisik secara langsung. Saklar pintar ini juga bisa untuk membuat jadwal yang dapat menghidupkan dan mematikan perangkat elekronik secara otomatis.
 
-### Prasyarat:
+##	Prasyarat
 
--	Install Arduino IDE
--	Install driver CH340G
+Sudah menginstall:
 
-### Alat dan bahan:
+-	Arduino IDE
+-	Driver CH340G
+
+##	Alat dan bahan
 
 1.	Laptop (Ubuntu 20.04)
 2.	ESP8266 Nodemcu v3.0 Lolin
@@ -28,14 +34,15 @@ Tujuan dari pembuatan saklar pintar ini adalah untuk memudahkan pengguna dalam m
 4.	Kabel jumper female to female
 5.	Kabel USB A ke Micro USB
 6.	Jaringan WiFi (Internet)
+7.	Akun [Sinric Pro](https://sinric.pro)
 
-### Langkah pembuatan:
+##	Langkah pembuatan
 
 1.	Buka Arduino IDE
 
 2.	Tambahkan board ESP8266 ke Arduino IDE
 
-	File > Preferences > Settings
+    File > Preferences > Settings
 
 	Tambahkan URL ini ke Additional Boards Manager URLs
 
@@ -340,6 +347,8 @@ Tujuan dari pembuatan saklar pintar ini adalah untuk memudahkan pengguna dalam m
 	| D1      | -> | In1   |
 	| D2      | -> | In2   |
 
-17.	Buka dashboard sinric pro
+17.	Testing menggunakan dashboard sinric pro
 
 	Coba untuk menghidupkan dan mematikan switch, lampu relay akan mati saat off dan akan hidup saat on.
+
+	{{< youtube ybBt2E1YVn4 >}}
