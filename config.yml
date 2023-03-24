@@ -118,10 +118,6 @@ menu:
       name: contact
       url: /contact/
       weight: 30
-    - identifier: archives
-      name: archives
-      url: /archives/
-      weight: 40
   footer:
     - identifier: CC BY-NC-SA 4.0
       name: CC BY-NC-SA 4.0
@@ -131,6 +127,10 @@ menu:
       name: status
       url: https://status.zxn.my.id/
       weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
