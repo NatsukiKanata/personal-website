@@ -11,7 +11,6 @@
     color: var(--secondary);
 }
 
-
 .footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
