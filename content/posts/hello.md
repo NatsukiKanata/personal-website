@@ -3,10 +3,10 @@ author: "Fauzan"
 title: "Hello!"
 date: "2022-10-06"
 description: "Post I // MMXXII"
-cover: 
-    image: "/hello.jpeg"
-    alt: "hello.md"
-    caption: "hello.md"
+cover:
+  image: "/hello.jpeg"
+  alt: "hello.md"
+  caption: "hello.md"
 tags: ["life"]
 categories: ["life"]
 ---
