@@ -14,8 +14,8 @@ pygmentsUseClasses: true
 googleAnalytics: G-RH5XYPD4CB
 
 minify:
-  disableXML: true
-  #minifyOutput: true
+  # disableXML: true
+  # minifyOutput: true
 
 outputs:
     home:
