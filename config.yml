@@ -5,7 +5,7 @@ paginate: 5
 theme: "PaperMod"
 
 enableInlineShortcodes: true
-enableRobotsTXT: false
+enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -27,7 +27,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: fzzzn.
   description: "fauzan's personal website."
-  keywords: [Blog, PaperMod, fauzannnnh, fzzzn, eenthlh]
+  keywords: [Blog, fauzannnnh, fzzzn, eenthlh]
   author: fauzan
   # author: ["Me", "You"] # multiple authors
   images:
