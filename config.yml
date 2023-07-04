@@ -6,7 +6,7 @@ theme: "PaperMod"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
@@ -14,8 +14,8 @@ pygmentsUseClasses: true
 googleAnalytics: G-RH5XYPD4CB
 
 minify:
-  # disableXML: true
-  # minifyOutput: true
+  disableXML: false
+  minifyOutput: true
 
 outputs:
     home:
@@ -27,7 +27,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: fzzzn.
   description: "fauzan's personal website."
-  keywords: [Blog, PaperMod]
+  keywords: [Blog, PaperMod, fauzannnnh, fzzzn, eenthlh]
   author: fauzan
   # author: ["Me", "You"] # multiple authors
   images:
@@ -58,12 +58,12 @@ params:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-i6x16.png"
     favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png "
+    apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.png"
 
   label:
     text: "fzzzn."
-    # icon: /apple-touch-icon.png
+    # icon: "/apple-touch-icon.png"
     iconHeight: 35
 
   # profile-mode
@@ -74,7 +74,7 @@ params:
     imageUrl: "/me.png"
     imageWidth: 150
     imageHeight: 150
-    imageTitle: image
+    imageTitle: "profile image"
 
   # homeInfoParams:
   #    Title: fzzzn.
